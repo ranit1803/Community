@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+      <nav>
+            <div class="container">
+                <h2 class="logo">Community</h2>
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input
+                    type="search"
+                    placeholder="Search for creators, inspirations and projects"
+                    />
+                </div>
+                <div class="create">
+                    <label class="btn btn-primary" for="create-post">Create</label>
+                    <div class="profile-pic">
+                        <img src="images/mo-lester.jpg" alt="pic 1" />
+                    </div>
+                </div>
+            </div>
+      </nav>
+
+      <main>
+          <div class="container">
+              <div class="left">
+                  <a class="profile">
+                      <div class="profile-pic">
+                        <img src="./images/mo-lester.jpg">
+                      </div>
+                      <div class="handle">
+                          <h4>Mo-Lester</h4>
+                          <p class="text-muted">@lestermo</p>
+                      </div>
+                  </a>
+                  <div class="sidebar">
+                    <a class="menu-item active">
+                      <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-compass"></i></span> <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                      <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span> <h3>Notifications</h3>
+                      <div class="notifications-popup">
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/bhupal.jpeg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Bhupal chowdary</b> accepted your friend request
+                                  <small class="text-muted">2 DAYS AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/sandeep.jpeg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Sandeep Tripathi</b> commented on your post
+                                  <small class="text-muted">1 HOUR AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/ranit santra.jpeg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Ranit Santra</b> and 210 other liked your post
+                                  <small class="text-muted">4 MINUTES AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/abhirama.jpeg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Abhirama Arjun</b> started following you
+                                  <small class="text-muted"> 11 HOURS AGO</small>
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <i class="uil uil-envelope"><small class="notification-count">6</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-bookmark"></i></span> <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-analytics"></i></span> <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-palette"></i></span> <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-setting"></i></span> <h3>Settings</h3>
+                    </a>
+                    
+                    <label class="btn btn-primary" for="create-post">Create Post</label>
+                </div>
+              </div>
+              
+
+
+              <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/mo-lester.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/bhupal.jpeg" alt="">
+                        </div>
+                        <p class="name">Bhupal Chowdary</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/sandeep.jpeg" alt="">
+                        </div>
+                        <p class="name">Sandeep Tripathi</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/ranit santra.jpeg" alt="">
+                        </div>
+                        <p class="name">Ranit Santra</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/abhirama.jpeg" alt="">
+                        </div>
+                        <p class="name">Abhirama Arjun</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/lokesh.jpeg" alt="">
+                        </div>
+                        <p class="name">Lokesh</p>
+                    </div>
+                </div>
+
+                <form class="create-post">
+                    <div class="profile-pic">
+                        <img src="images/mo-lester.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind mo-lester" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/bhupal.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Bhupal Chowdary</h3>
+                                 <small>Dubai, 15 MINUTES AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed1.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/ranit santra.jpeg"></span>
+                             <span><img src="images/bhupal.jpeg"></span>
+                             <span><img src="images/sandeep.jpeg"></span>
+                             ,<p>Liked by <b>Sandeep Tripathi</b> and <b>220 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Lokesh </b>Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 130 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/sandeep.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Sandeep Tripathi</h3>
+                                 <small>New York, 1 HOUR AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed2.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/lokesh.jpeg"></span>
+                             <span><img src="images/saikumar.jpeg"></span>
+                             <span><img src="images/abhirama.jpeg"></span>
+                             ,<p>Liked by <b>Abhirama Arjun</b> and <b>188 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Lokesh</b> Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 40 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/ranit santra.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Ranit Santra</h3>
+                                 <small>Amsterdam, 7 HOURS AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed3.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/abhirama.jpeg"></span>
+                             <span><img src="images/sandeep.jpeg"></span>
+                             <span><img src="images/saikumar.jpeg"></span>
+                             ,<p>Liked by <b>Saikumar </b> and <b>130 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Nelson</b> Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 15 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/lokesh.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Lokesh</h3>
+                                 <small>USA, 3 HOURS AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed4.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/bhupal.jpeg"></span>
+                             <span><img src="images/sandeep.jpeg"></span>
+                             <span><img src="images/ranit santra.jpeg"></span>
+                             ,<p>Liked by <b>Ranit Santra</b>and <b>280 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Bhupal Chowdary</b> Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 110 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/abhirama.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Abhirama Arjun</h3>
+                                 <small>Paris, 1 DAY AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed5.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/lokesh.jpeg"></span>
+                             <span><img src="images/ranit santra.jpeg"></span>
+                             <span><img src="images/sandeep.jpeg"></span>
+                             ,<p>Liked by <b>Sandeep Tripathi</b>and <b>420 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Sandeep Tripathi</b> Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 120 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/lokesh.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Lokesh</h3>
+                                 <small>Mumbai, 30 MINUTES AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed6.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/saikumar.jpeg"></span>
+                             <span><img src="images/sandeep.jpeg"></span>
+                             <span><img src="images/ranit santra.jpeg"></span>
+                             ,<p>Liked by <b>Ranit Santra</b>and <b>150 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Bhupal Chowdary</b> Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 30 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/saikumar.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Sai Kumar</h3>
+                                 <small>Bangalore, 11 HOURS AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed7.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="images/abhirama.jpeg"></span>
+                             <span><img src="images/lokesh.jpeg"></span>
+                             <span><img src="images/bhupal.jpeg"></span>
+                             ,<p>Liked by <b>Bhupal Chowdary</b> and <b>530 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Ranit Santra</b> Lorem ipsum dolor storiesquiquam eius.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 190 comments</div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="right">
+                  <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <span><i class="uil uil-edit"></i></span>
+                    </div>
+  
+                    <div class="search-bar">
+                        <span><i class="uil uil-search"></i></span>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+  
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/ranit santra.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Ranit Santra</h5>
+                            <p class="text-muted">Just woke up bruh..</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/bhupal.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Bhupal Chowdary</h5>
+                            <p class="text-bold">2 New Messages</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/abhirama.jpeg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Abhirama Arjun</h5>
+                            <p class="text-muted">u look like crap</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/lokesh.jpeg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Lokesh</h5>
+                            <p class="text-bold">Birthday tomorrow!!</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/sandeep.jpeg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Sandeep Tripathi</h5>
+                            <p class="text-muted">Ssup?</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/saikumar.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Sai Kumar</h5>
+                            <p class="text-bold">3 New Messages</p>
+                        </div>
+                    </div>                                                        
+                </div>
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/nelson.jpeg">
+                            </div>
+                            <div>
+                                <h5>Nelson</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/vishal.jpeg">
+                            </div>
+                            <div>
+                                <h5>Vishal</h5>
+                                <p class="text-muted">2 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/nanda.jpg">
+                            </div>
+                            <div>
+                                <h5>Nanda</h5>
+                                <p class="text-muted">1 mutual friend</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+            
+              </div> 
+
+
+               
+              </div>
+          </div>
+      </main>
+
+        <script src="index.js"></script>
+  </body>
+  
+</html>
